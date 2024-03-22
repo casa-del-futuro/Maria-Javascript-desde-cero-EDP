@@ -7,7 +7,10 @@ function cantidadDeVocales(phrase){
 function primerDivisible(divisor, dividendo) {
 // Encuentra el primer número divisible por 'dividendo' a partir de un número dado (divisor) utilizando un bucle while
 // Tu código:👇
-
+    while(divisor < dividendo){
+        if(dividendo % divisor === 0) return divisor
+        divisor++
+    }
 }
 
 

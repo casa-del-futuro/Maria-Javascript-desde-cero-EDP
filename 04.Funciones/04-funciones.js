@@ -4,14 +4,18 @@
 //Debes crear un funcion que retorne un mensaje de bienvenida con nombre y apellido de la persona
 //Ejemplo "Bienvenido Leonardo Avila" -> IMPORTANTE la funcion tiene que llamarse 'bienvenida'
 //Tu código:
-
-
+function bienvenida (nombre, apellido) {
+   return `Bienvenido ${nombre} ${apellido}`
+}
 
 /**********************************************************************************/
 // Crea una funcion el cual cumpla la funcion de una calculadora.. tiene que recibir 3 parametros num1, operador y num2
 // IMPORTANTE -> la funcion debe llamarse 'calc'
 // Tu código:
 
+const calc = function (){
+
+}
 
 
 /**********************************************************************************/
@@ -24,7 +28,9 @@
 // ejemplo => max = 20 y porcentaje de lluvia = 70 => devolver "El día está lindo, recomendable un paraguas"
 // IMPORTANTE -> la funcion debe llamarse 'temp'    
 // Tu código:
+const temp = () => {
 
+}
 
 
 /**********************************************************************************/
@@ -34,6 +40,9 @@
 // IMPORTANTE -> la funcion debe llamarse 'checkPassword'
 // Tu código:
 
+const checkPassword = () =>{
+
+}
 
 
 
@@ -41,7 +50,9 @@
 // Crea una función que reciba un string como parámetro y devuelva el mismo string pero con todas las palabras en orden inverso.
 // IMPORTANTE -> la funcion debe llamarse 'stringInverso'
 // Tu código:
+const stringInverso = () => {
 
+}
 
 
 /**********************************************************************************/

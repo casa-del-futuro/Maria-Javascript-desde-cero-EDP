@@ -79,7 +79,7 @@ function enOrden(arr, ascendente = true){
 function dosEnUno(arr1, arr2){
     //Escribe una función que reciba dos arrays y devuelva un nuevo array que contenga todos los elementos de ambos arrays, sin duplicados.
     //Tu codigo:
-    // return arr1.concat(arr2);
+    // return arr1.concat(arr2); // Bucle
 
 }
 
